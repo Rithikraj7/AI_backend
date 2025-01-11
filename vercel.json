@@ -14,5 +14,10 @@
       "src": "/(.*)",
       "dest": "App/main.py"
     }
-  ]
+  ],
+  "build": {
+    "env": {
+      "CUSTOM_BUILD_COMMAND": "pip install -r /vercel/path0/requirements.txt"
+    }
+  }
 }
