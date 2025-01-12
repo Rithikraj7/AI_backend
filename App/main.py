@@ -10,7 +10,7 @@ app = FastAPI(
 
 # Define allowed origins (front-end URL)
 origins = [
-    "https://Rithikraj7.github.io/AI_frontend/",  # Your frontend URL during development
+    "http://localhost:3000",  # Your frontend URL during development
     "http://192.168.50.1:3000/",      # Localhost for testing
 ]
 
